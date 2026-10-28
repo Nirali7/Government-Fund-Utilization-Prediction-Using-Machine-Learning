@@ -1,0 +1,252 @@
+/* =====================================================
+   GOVERNMENT FUND UTILIZATION DASHBOARD
+   Premium Dark Glassmorphism Theme
+===================================================== */
+
+/* Background */
+
+.stApp{
+    background: linear-gradient(135deg,#081229,#0d1f42,#122d57);
+    color:white;
+}
+
+/* Hide Streamlit */
+
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* Title */
+
+h1{
+    color:#ffffff;
+    text-align:center;
+    font-weight:800;
+}
+
+h2{
+    color:#5cc8ff;
+    font-weight:700;
+}
+
+h3{
+    color:#5cc8ff;
+}
+
+/* Metric Cards */
+
+div[data-testid="metric-container"]{
+
+    background:rgba(255,255,255,0.08);
+
+    border:1px solid rgba(255,255,255,0.15);
+
+    border-radius:20px;
+
+    padding:18px;
+
+    backdrop-filter:blur(15px);
+
+    box-shadow:0px 8px 25px rgba(0,0,0,.30);
+
+    transition:.3s;
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-6px);
+
+    border:1px solid #00d4ff;
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    width:100%;
+
+    background:linear-gradient(90deg,#00b4ff,#00ff95);
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    padding:12px;
+
+    transition:.4s;
+
+}
+
+.stButton>button:hover{
+
+    transform:scale(1.03);
+
+    box-shadow:0 0 25px #00b4ff;
+
+}
+
+/* Input Boxes */
+
+.stSelectbox div[data-baseweb="select"]{
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:10px;
+
+}
+
+.stNumberInput input{
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+}
+
+/* Dataframe */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0px 8px 20px rgba(0,0,0,.35);
+
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+    background:#07152d;
+
+}
+
+/* Divider */
+
+hr{
+
+    border:1px solid rgba(255,255,255,.15);
+
+}
+
+/* Success */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+/* Info */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+/* Download Button */
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#00c853;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+}
+
+.stDownloadButton>button:hover{
+
+    background:#00e676;
+
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#00b4ff;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0a1730;
+
+}
+
+/* Plotly */
+
+.js-plotly-plot{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+/* Animations */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+.block-container{
+
+    animation:fadeIn .7s;
+
+    padding-top:2rem;
+
+    padding-bottom:2rem;
+
+}
